@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="Styles/nav.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li>
+                <a href="table.html">Table</a>
+                <ul class="dropdown">
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li>
+                        <a href="table.html">Table</a>
+                        <ul class="dropdown">
+                            <li><a href="video.html">Video</a></li>
+                            <li><a href="form.html">Form</a></li>
+                            <li>
+                                <a href="table.html">Table</a>
+                                <ul class="dropdown">
+                                    <li><a href="video.html">Video</a></li>
+                                    <li><a href="form.html">Form</a></li>
+                                    <li><a href="table.html">Table</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                </ul></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </li>
+            <li><a href="blog.html">Blog</a></li>
+            
+        </ul> 
+    </nav>
+    </header>
+    <h2>Table</h2>
+    <table>
+        <caption>Salary Table</caption>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Dept</th>
+            <th>Basic</th>
+          </tr>  
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Asif</td>
+                <td>Operation</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Akbar</td>
+                <td>Operation</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Akib</td>
+                <td>Operation</td>
+                <td>1000</td>
+            </tr>
+        </tbody>
+            <tr>
+                <td colspan="2">Total Employee: 3</td>
+            </tr>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <br>
+    <span>
+        <button title="click me">Click here</button>
+        <button disabled>Click here</button>
+        <input type="number" max="20" min="5" id="">
+    </span>
+</body>
+</html>

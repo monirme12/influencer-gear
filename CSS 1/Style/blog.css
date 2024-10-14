@@ -1,0 +1,31 @@
+h4{
+    font-size: 30px;
+    text-decoration: overline;
+}
+.second{
+    /* display: none; */
+    /* visibility:hidden; */
+}
+.blog{
+    margin: 20px;
+    border: 20px blue dashed;
+    box-shadow: 10px 10px 20px violet;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+
+}
+.other{
+    border: 3px solid red;
+    height: 30px;
+    /* display: block; */
+    display: inline-block;
+}
+.header{
+    height: 300px;
+    background-image: url(../images/tranquil-japanese-room-stockcake.jpg);
+    /* background-image:url(../tree.jpeg); */
+    /* background-image: url('tranquil-japanese-room-stockcake.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-size: 200px; */
+}
